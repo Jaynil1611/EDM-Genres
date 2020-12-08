@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+:root {
+  --primary-color : white;
+  --secondary-color: red;
+  --background-color:#171717;
+  --secondary-background-color:#d70062;
+  --div-background-color : #404040;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+}
+
+body {
+  display: flex;  
+  font-size: larger;
+  justify-content: center;
+  margin: auto;  
+  margin-top: 2%;
+  box-sizing: border-box;
+  background-color: var(--background-color);
+  color: var(--primary-color);  
+}
+
+/* header content */
+.heading {
+  display: flex;
+  flex-direction: column;
+}
+
+/* list */
+.list-non-bullet-songs {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-inline-start: 0px;
+  margin-block-start: 3rem;
+  margin-block-end: 1rem;
+  overflow: auto;
+}
+
+.list-item-inline-songs {
+  display: flex;
+  width: 100%;
+}
+
+.list-non-bullet-tabs {
+  display:flex;
+  justify-content: space-between;
+  width: 100%;
+  list-style-type: none;
+  padding-inline-start: 0px;
+  margin-block-start: 3rem;
+  margin-block-end: 1rem;
+}
+
+.list-item-inline-tabs {
+  display: flex;
+}
+
+.image {
+  display:flex;
+  max-width: 35%;
+  height: 30vh;
+  
+  padding: 1rem 1.5rem;
+}
+
+/* flex-container song */
+.flex-container {
+  display: flex;
+  margin: 2rem 0rem;
+  justify-content: flex-start;
+  background-color: var(--div-background-color);
+  border-radius: 1rem;
+}
+
+/* songs styling */
+.song-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.song-title {
+  padding: 1rem 1rem;
+  font-weight: bold;
+  font-size: 40px;  
+} 
+
+.song-artist { 
+  font-size: medium;
+  padding: 1rem 1rem;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.song-artist span { 
+  padding: 0rem 0.5rem;
+  background-color: var(--secondary-background-color);
+}
+
+.song-rating {
+  font-size: medium;
+  padding: 1rem 1rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  font-size: 20px;
+}
+
+.song-link {
+  font-size: medium;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  font:inherit;
+  font-size: 20px;
+}
+
+.song-link i{
+  color: var(--primary-color);
+}
+
+.song-link i:hover {
+  color: var(--secondary-background-color);
+  transition: all 0.2s ease-in-out;
+}
+
+/* genre button styling */
+.genre-button {  
+  font-weight: bold;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 1rem 3rem;
+  border-radius: 0.5rem;
+  border-color: var(--secondary-color);
+  transition: 0.3s;
+}
+
+.genre-button:hover {
+  outline: none;
+  background-color: var(--primary-color);
+  color: var(--secondary-background-color);
+}
+
+.genre-button:focus {
+  outline: none;
+}
