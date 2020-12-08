@@ -17,7 +17,9 @@ const displaySongs = (genre) => {
                 <span>{song.artists}</span>
               </li>
               <li className="list-item-inline-songs song-rating">
-                <span>{song.rating}</span>
+                <span>
+                  {song.rating} <i class="bx bxs-star bx-sm"></i>
+                </span>
               </li>
               <li className="list-item-inline-songs song-link">
                 <a href={song.link}>

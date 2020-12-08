@@ -110,6 +110,9 @@ body {
   color: var(--primary-color);
   font-size: 20px;
 }
+.song-rating i {
+  vertical-align: text-top;
+}
 
 .song-link {
   font-size: medium;
