@@ -8,6 +8,13 @@ export const songList = {
       rating: "4.5",
     },
     {
+      image: "./images/p2.png",
+      title: "HIGHER GROUND",
+      artists: "MARTIN GARRIX & JOHN MARTIN",
+      link: "https://open.spotify.com/track/0rohJsT6NWsThpukt0Xxdc",
+      rating: "4.3",
+    },
+    {
       image: "./images/b1.png",
       title: "RAVE LOVE",
       artists: "W&W, AXMO & SONJA",
@@ -40,14 +47,6 @@ export const songList = {
       title: "EXPLORATION OF SPACE",
       artists: "COSMIC GATE",
       link: "https://open.spotify.com/track/4WfRqfzYSSopd07hKWnxwr",
-      rating: "4.3",
-    },
-
-    {
-      image: "./images/p2.png",
-      title: "HIGHER GROUND",
-      artists: "MARTIN GARRIX & JOHN MARTIN",
-      link: "https://open.spotify.com/track/0rohJsT6NWsThpukt0Xxdc",
       rating: "4.3",
     },
     {
@@ -88,29 +87,6 @@ export const songList = {
       rating: "4.3",
     },
   ],
-  POP: [
-    {
-      image: "./images/p1.png",
-      title: "BREAK MY HEART",
-      artists: "DUA LIPA",
-      link: "https://open.spotify.com/track/1raaNykBg1bDnWENUiglUA",
-      rating: "4.5",
-    },
-    {
-      image: "./images/p3.png",
-      title: "THE BUSINESS",
-      artists: "TIESTO",
-      link: "https://open.spotify.com/track/6f3Slt0GbA2bPZlz0aIFXN",
-      rating: "4.4",
-    },
-    {
-      image: "./images/p2.png",
-      title: "HIGHER GROUND",
-      artists: "MARTIN GARRIX & JOHN MARTIN",
-      link: "https://open.spotify.com/track/0rohJsT6NWsThpukt0Xxdc",
-      rating: "4.3",
-    },
-  ],
   BIGROOM: [
     {
       image: "./images/b1.png",
@@ -131,6 +107,29 @@ export const songList = {
       title: "THE PEOPLE",
       artists: "KSHMR & TIMMY TRUMPET",
       link: "https://open.spotify.com/track/3YRCgAw6nq0qcPpGOb3FZk",
+      rating: "4.3",
+    },
+  ],
+  POP: [
+    {
+      image: "./images/p1.png",
+      title: "BREAK MY HEART",
+      artists: "DUA LIPA",
+      link: "https://open.spotify.com/track/1raaNykBg1bDnWENUiglUA",
+      rating: "4.5",
+    },
+    {
+      image: "./images/p3.png",
+      title: "THE BUSINESS",
+      artists: "TIESTO",
+      link: "https://open.spotify.com/track/6f3Slt0GbA2bPZlz0aIFXN",
+      rating: "4.4",
+    },
+    {
+      image: "./images/p2.png",
+      title: "HIGHER GROUND",
+      artists: "MARTIN GARRIX & JOHN MARTIN",
+      link: "https://open.spotify.com/track/0rohJsT6NWsThpukt0Xxdc",
       rating: "4.3",
     },
   ],
