@@ -18,7 +18,7 @@ const displaySongs = (genre) => {
               </li>
               <li className="list-item-inline-songs song-rating">
                 <span>
-                  {song.rating} <i class="bx bxs-star bx-sm"></i>
+                  {song.rating} <i className="bx bxs-star bx-sm"></i>
                 </span>
               </li>
               <li className="list-item-inline-songs song-link">
@@ -51,7 +51,9 @@ export default function App() {
             <li className="list-item-inline-tabs" key={g}>
               <button
                 key={g}
-                className="genre-button"
+                className={`genre-button ${
+                  g === genre ? "selectedGenre" : null
+                }`}
                 onClick={() => onClickHandler(g)}
               >
                 {g}

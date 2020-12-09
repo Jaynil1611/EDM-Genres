@@ -148,6 +148,12 @@ body {
   color: var(--secondary-background-color);
 }
 
+  
+.selectedGenre {
+  outline: none;
+  background-color: var(--primary-color);
+  color: var(--secondary-background-color);
+}
 .genre-button:focus {
   outline: none;
 }
