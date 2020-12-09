@@ -52,7 +52,6 @@ body {
 .list-non-bullet-tabs {
   display:flex;
   justify-content: space-between;
-  width: 100%;
   flex-wrap:wrap;
   padding-inline-start: 0px;
   margin-block-start: 1.5rem;
@@ -61,6 +60,7 @@ body {
 
 .list-item-inline-tabs {
   display: flex;
+  margin: 1rem;
 }
 
 .image {
