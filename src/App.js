@@ -7,9 +7,9 @@ const displaySongs = (genre) => {
     <ul className="list-non-bullet-songs">
       {songList[genre].map((song) => {
         return (
-          <div key={song.title} className="flex-container">
+          <div key={song} className="flex-container">
             <img className="image" src={song.image} alt="j"></img>
-            <div className="song-content">
+            <div key={song.title} className="song-content">
               <li className="list-item-inline-songs song-title">
                 <span>{song.title}</span>
               </li>
@@ -25,6 +25,14 @@ const displaySongs = (genre) => {
                 <a href={song.link}>
                   <i className="bx bxl-spotify bx-md"></i>
                 </a>
+              </li>
+              <li className="list-item-inline-songs song-embed">
+                <iframe
+                  src={"https://open.spotify.com/embed/track/" + song.link.slice(31)}
+                  frameBorder="0"
+                  allowtransparency="true"
+                  allow="encrypted-media"
+                ></iframe>
               </li>
             </div>
           </div>

@@ -65,9 +65,7 @@ body {
 
 .image {
   display:flex;
-  max-width: 35%;
   height: 30vh;
-  
   padding: 1rem 1.5rem;
 }
 
@@ -131,6 +129,11 @@ body {
 .song-link i:hover {
   color: var(--secondary-background-color);
   transition: all 0.2s ease-in-out;
+}
+
+.song-embed {
+  width: 100%;
+  height: auto;
 }
 
 /* genre button styling */
