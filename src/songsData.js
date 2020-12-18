@@ -53,7 +53,7 @@ export const songList = {
       image: "./images/b2.png",
       title: "DREAMS",
       artists: "DAVID GUETTA, MORTEN & LANIE GARDNER",
-      link: "https://open.spotify.com/trackovAmYzYLeEmOX6P3bmlzV",
+      link: "https://open.spotify.com/track/5ovAmYzYLeEmOX6P3bmlzV",
       rating: "4.4",
     },
     {

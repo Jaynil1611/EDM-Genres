@@ -133,9 +133,11 @@ body {
 
 .song-embed {
   width: 100%;
-  height: auto;
 }
 
+.spotify-song {
+  width: 100%;
+}
 /* genre button styling */
 .genre-button {  
   font-weight: bold;
