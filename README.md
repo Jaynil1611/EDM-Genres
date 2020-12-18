@@ -2,10 +2,14 @@
 # Music Recommendation using React JS 🎵
 
 ## Introduction
-  This projct recommends songs of different genres in EDM based on their ratings on Spotify. It is build using `HTML, CSS, JavaScript, ReactJS` & used Spotify to embed it's player direcly on the application. The song data, images and links are collected from Spotify and stored in `songsData.js`.
+This projct recommends songs of different genres in EDM based on their ratings on Spotify. It is build using `HTML, CSS, JavaScript, ReactJS` & used Spotify to embed it's player direcly on the application. The song data, images and links are collected from Spotify and stored in `songsData.js`.
 
 ## Live Demo
- View the live demo of the application here 👉  [EDM Genres](https://jaynil-gaglani-edm-genres.netlify.app/)
+View the live demo of the application here 👉  [EDM Genres](https://jaynil-gaglani-edm-genres.netlify.app/)
+ 
+ ## Application View
+![Image](https://raw.githubusercontent.com/Jaynil1611/Portfolio-Website/master/images/EDM.PNG)
+ 
 ## Technologies Used
 - HTML
 - CSS
